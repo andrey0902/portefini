@@ -1,0 +1,45 @@
+<div id="toolbarContainer" class="toolbar-container">
+  <div class="mobile-menu-button-container" on-click="_toggle">
+    <!--<portefini-menu-button toggle="{{toggle}}"></portefini-menu-button>-->
+  </div>
+  <div class="logo-container" on-mouseover="_setCurrentMenuToHide">
+    <a href="/">
+      <img class="logo" src="assets/images/logo.png" alt="Portefini logo">
+    </a>
+  </div>
+  <div id="mainMenuContainer" class="main-menu-container">
+    <nav>
+      <ul>
+        <li>
+          <span style="color: black;">menu here</span>
+          <!--<portefini-menu-item on-mouseover="_selectThisItem">-->
+            <!--<a id="occasions">[[menu.occasions.name]]</a>-->
+          <!--</portefini-menu-item>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<portefini-menu-item on-mouseover="_selectThisItem">-->
+            <!--<a id="clothes">[[menu.clothes.name]]</a>-->
+          <!--</portefini-menu-item>-->
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="actions-container" on-mouseover="_setCurrentMenuToHide">
+    <a class="user-icon" href="signup" on-click="_showMenu" on-mouseover="_onMouseOver">
+      <img class="user-default-avatar" src="assets/images/vectors/user-icon.svg">
+    </a>
+  </div>
+</div>
+
+<div id="userDropdown" class="user-dropdown">
+  <div class="group">
+    <div class="name">[[_getName(userData.firstName, userData.lastName, user)]]</div>
+    <div class="email">[[user.email]]</div>
+  </div>
+
+  <!--<portefini-my-sidebar-menu route="[[route]]" toolbar></portefini-my-sidebar-menu>-->
+
+  <div class="group signout" on-click="_signOut">
+    Sign out
+  </div>
+</div>

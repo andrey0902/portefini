@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="520.231 520.235 327.475 327.475">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        filter: url(#Path_1);
+      }
+    </style>
+    <filter id="Path_1" x="520.231" y="520.235" width="327.475" height="327.475" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="search-shadowed" transform="translate(561 561)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -561, -561)">
+      <path id="Path_1-2" data-name="Path 1" class="cls-1" d="M133.982,118.264H125.7l-2.934-2.829a68.213,68.213,0,1,0-7.335,7.335l2.829,2.934v8.278l52.393,52.288,15.613-15.613Zm-62.871,0a47.09,47.09,0,1,1,33.36-13.792,47.153,47.153,0,0,1-33.36,13.792Z" transform="translate(589.44 589.44)"/>
+    </g>
+    <path id="Path_2" data-name="Path 2" class="cls-2" d="M0,0H251.485V251.485H0Z"/>
+  </g>
+</svg>
